@@ -1,4 +1,4 @@
-module go-grpc-demo
+module auth_protos
 
 go 1.23.3
 
