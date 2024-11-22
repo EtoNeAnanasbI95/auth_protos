@@ -13,12 +13,12 @@ service Auth {
   rpc Validate (TokenRequest) returns (google.protobuf.Empty);
 }
 
-message RegisterResponse {
+message RegisterRequest {
   string login = 1;
   string password = 2;
 }
 
-message RegisterRequest {
+message RegisterResponse {
   int64 user_id = 1;
 }
 
